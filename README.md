@@ -10,7 +10,8 @@ Frontend-демо сервиса нарезки видео: пользовате
 npm install
 npm run dev      # режим разработки, http://localhost:5173
 npm test         # юнит-тесты
-npm run build    # production-сборка в dist/
+npm run typecheck  # проверка типов TypeScript
+npm run build      # production-сборка в dist/
 ```
 
 ## Возможности
