@@ -1,0 +1,4 @@
+[build]
+  # Install dependencies if they are missing (e.g. when building outside Netlify's install step)
+  command = "[ -x node_modules/.bin/vite ] || npm ci; npm run build"
+  publish = "dist"
